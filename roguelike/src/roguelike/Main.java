@@ -14,6 +14,7 @@ public class Main extends JFrame {
 		setVisible(true);//makes the window visible
 		setResizable(false);//prevents user from manually resizing window using mouse
 		add(gp);
+		// change
 	}
 	
 	public static void main(String[] args) {
