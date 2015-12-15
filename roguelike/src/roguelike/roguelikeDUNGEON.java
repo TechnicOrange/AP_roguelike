@@ -84,71 +84,71 @@ public class roguelikeDUNGEON {
 //				}
 				
 				/* Calculates which ceiling tile should be drawn */
-				if (test_tile(row,col) == 1 && row > 1 && col > 1 && row < 62 && col < 62) {
-					int counter = ceiling_checker(row, col);
-					switch (counter) {
-					case 1:
-						g.drawImage(CEILING_o_BL, (col*8), (row*8), 8, 8, null);
-						break;
-					case 2:
-						g.drawImage(CEILING_o_TR, (col*8), (row*8), 8, 8, null);
-						break;
-					case 3:
-						g.drawImage(CEILING_o_TL, (col*8), (row*8), 8, 8, null);
-						break;
-					case 4:
-						g.drawImage(CEILING_o_BR, (col*8), (row*8), 8, 8, null);
-						break;
-					case 5:
-						g.drawImage(CEILING, (col*8), (row*8), 8, 8, null);
-						break;
-					case 6:
-						g.drawImage(CEILING_top, (col*8), (row*8), 8, 8, null);
-						break;
-					case 7:
-						g.drawImage(CEILING_right, (col*8), (row*8), 8, 8, null);
-						break;
-					case 8:
-						g.drawImage(CEILING_bottom, (col*8), (row*8), 8, 8, null);
-						break;
-					case 9:
-						g.drawImage(CEILING_left, (col*8), (row*8), 8, 8, null);
-						break;
-					case 10:
-						g.drawImage(CEILING_i_BR, (col*8), (row*8), 8, 8, null);
-						break;
-					case 11:
-						g.drawImage(CEILING_i_BL, (col*8), (row*8), 8, 8, null);
-						break;
-					case 12:
-						g.drawImage(CEILING_i_TR, (col*8), (row*8), 8, 8, null);
-						break;
-					case 13:
-						g.drawImage(CEILING_i_TL, (col*8), (row*8), 8, 8, null);
-						break;
-					case 14:
-						g.drawImage(CEILING_end_L, (col*8), (row*8), 8, 8, null);
-						break;
-					case 15:
-						g.drawImage(CEILING_end_T, (col*8), (row*8), 8, 8, null);
-						break;
-					case 16:
-						g.drawImage(CEILING_end_R, (col*8), (row*8), 8, 8, null);
-						break;
-					case 17:
-						g.drawImage(CEILING_end_B, (col*8), (row*8), 8, 8, null);
-						break;
-					case 18:
-						g.drawImage(CEILING_center_RL, (col*8), (row*8), 8, 8, null);
-						break;
-					case 19:
-						g.drawImage(CEILING_center_TB, (col*8), (row*8), 8, 8, null);
-						break;
-					case 20:
-						g.drawImage(CEILING_center, (col*8), (row*8), 8, 8, null);
-						break;
-					}
-				}
+//				if (test_tile(row,col) == 1 && row > 1 && col > 1 && row < 62 && col < 62) {
+//					int counter = ceiling_checker(row, col);
+//					switch (counter) {
+//					case 1:
+//						g.drawImage(CEILING_o_BL, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 2:
+//						g.drawImage(CEILING_o_TR, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 3:
+//						g.drawImage(CEILING_o_TL, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 4:
+//						g.drawImage(CEILING_o_BR, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 5:
+//						g.drawImage(CEILING, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 6:
+//						g.drawImage(CEILING_top, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 7:
+//						g.drawImage(CEILING_right, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 8:
+//						g.drawImage(CEILING_bottom, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 9:
+//						g.drawImage(CEILING_left, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 10:
+//						g.drawImage(CEILING_i_BR, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 11:
+//						g.drawImage(CEILING_i_BL, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 12:
+//						g.drawImage(CEILING_i_TR, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 13:
+//						g.drawImage(CEILING_i_TL, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 14:
+//						g.drawImage(CEILING_end_L, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 15:
+//						g.drawImage(CEILING_end_T, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 16:
+//						g.drawImage(CEILING_end_R, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 17:
+//						g.drawImage(CEILING_end_B, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 18:
+//						g.drawImage(CEILING_center_RL, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 19:
+//						g.drawImage(CEILING_center_TB, (col*8), (row*8), 8, 8, null);
+//						break;
+//					case 20:
+//						g.drawImage(CEILING_center, (col*8), (row*8), 8, 8, null);
+//						break;
+//					}
+//				}
 			}
 		}
 	}
